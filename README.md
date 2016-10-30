@@ -59,7 +59,9 @@ app, the project is based on the `angm`, `Yeoman` generator. It's divided into
 sub-modules, which represent features of the application.
 
 The controller doesn't contain big logic because it's not its job. For exemple, it doesn't send http request to get datas. 
-If it needs to manipulate data, it has to call the desired service. 
+If it needs to manipulate data, it has to call the desired service.
+
+Our module are in the "tweb" name space, to prevent any problem about module name.
 
 ## CREDITS
 
