@@ -65,6 +65,6 @@ In the **server**, there's an API wich define routes that the **client** use to 
 with the database. We need to do that because Angular is in the client-side and can't directly use "mongodb" which is a Node.js library.
 
 ## CREDITS
-
+Team B
 * FRANCHINI Fabien
 * HENNEBERGER Sébastien
