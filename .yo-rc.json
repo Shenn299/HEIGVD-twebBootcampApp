@@ -1,0 +1,35 @@
+{
+  "generator-angm": {
+    "appName": "github-explorer",
+    "angularCookies": true,
+    "angularAnimate": true,
+    "angularSanitize": true,
+    "angularBootstrap": true,
+    "angularMaterial": true,
+    "modules": [
+      {
+        "name": "twebHome"
+      },
+      {
+        "name": "twebSha"
+      },
+      {
+        "name": "twebPlus"
+      }
+    ],
+    "menu": [
+      {
+        "link": "twebHome",
+        "title": "TwebHome"
+      },
+      {
+        "link": "twebSha",
+        "title": "TwebSha"
+      },
+      {
+        "link": "twebPlus",
+        "title": "TwebPlus"
+      }
+    ]
+  }
+}

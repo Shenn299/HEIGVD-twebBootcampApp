@@ -1,0 +1,25 @@
+<div class="container">
+
+	<h2 class="md-title">Search patterns in your SHA commits !</h2>
+
+	<form novalidate class="simple-form">
+		<input type="text" ng-model="user.username" placeholder="GitHub Username" /><br />
+		<input type="text" ng-model="user.reponame" placeholder="GitHub Reponame" /><br />
+		<input type="text" ng-model="user.pattern" placeholder="Pattern to research in SHAs" /><br />
+		<input type="submit" ng-click="searchPattern(user)" value="Search" /><br />
+		<br />
+		
+		{{errorMsg}}
+
+		<h2>{{resultMsg1}}<b>{{reponame}}</b>{{resultMsg2}}<b>{{username}}</b></h2>
+
+		<h3>{{resultDetailsMsg1}}<b>{{nbCommits}}</b>{{resultDetailsMsg2}}<b>{{nbShasContainPattern}}</b>{{resultDetailsMsg3}}<b>{{pattern}}</b>{{resultDetailsMsg4}}</h3>
+		{{shasContainPattern}} <br />
+		<br />
+
+	</form>
+
+	<!--Directive fournie par angular-chart.js qui utilise des données fournient par le controleur-->
+	<canvas id="doughnut" class="chart chart-doughnut" chart-data="vm.data" chart-labels="vm.labels" chart-colors="vm.colors"></canvas>
+
+</div>
