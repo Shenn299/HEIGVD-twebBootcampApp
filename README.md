@@ -63,6 +63,8 @@ If it needs to manipulate data, it has to call the desired service.
 
 Our module are in the "tweb" name space, to prevent any problem about module name.
 
+In our Express application, we did an API to define routes that Angular could use to speak with database. We need to do that because Angular is in the client-side and can't directly use "mongodb" which is a Node.js library.
+
 ## CREDITS
 
 * FRANCHINI Fabien
