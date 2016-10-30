@@ -1,4 +1,4 @@
-# SHA1.inspect()
+# SHA INSPECTOR
 
 This repository contains a web application which the main purpose is to provide
 a tool to find hexspeak word, in git commits hashes.
