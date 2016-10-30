@@ -58,8 +58,8 @@ The **client** is an `AngularJS 1.x` application. Despite, regular `AngularJS`
 app, the project is based on the `angm`, `Yeoman` generator. It's divided into
 sub-modules, which represent features of the application.
 
-Depending on the setup, a feature is a MVC application. The controller contains
-the core logic. 
+The controller doesn't contain big logic because it's not its job. For exemple, it doesn't send http request to get datas. 
+If it needs to manipulate data, it has to call the desired service. 
 
 ## CREDITS
 
