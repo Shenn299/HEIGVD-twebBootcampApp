@@ -67,8 +67,8 @@
                     $scope.shasContainPattern = shasContainPattern;
 
                     // Set the datas for the doughnut graph
-                    vm.labels = ['Nb total of SHAs', 'SHAs which contain the pattern \"' + $scope.pattern + '\"'];
-                    vm.data = [$scope.nbCommits, $scope.nbShasContainPattern];
+                    vm.labels = ['Nb of SHAs which don\'t contain pattern \"' + $scope.pattern + '\"', 'Nb of SHAs which contain the pattern \"' + $scope.pattern + '\"'];
+                    vm.data = [$scope.nbCommits - $scope.nbShasContainPattern, $scope.nbShasContainPattern];
                     vm.colors = [
                         // Color for SHAs which don't contain the pattern (blue)
                         "#0000FF",
