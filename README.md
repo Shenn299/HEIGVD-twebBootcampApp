@@ -1,6 +1,6 @@
 # SHA INSPECTOR APP
 
-This repository contains a web application which the main purpose is to provide
+This repository contains a web application which provide
 a tool to find hexspeak word, in git commits hashes.
 
 ## PREREQUISITES
@@ -11,16 +11,14 @@ configured:
 * A modern web browser like Firefox, Chromium, Safari or Edge;
 * NodeJS.
 
-These additional packages should be installed, in order to contribute to the
-project:
+To contribute to the project, these additional packages should be installed:
 
 * Yeoman;
 * Bower;
 * Grunt;
 * Generator-angm.
 
-The description of the installation of these tools is not covered by this
-document.
+We assume these tools are properly installed and configured in your environment.
 
 ## GETTING STARTED
 
@@ -61,9 +59,10 @@ sub-modules, which represent features of the application.
 The controller doesn't contain big logic because it's not its job. For exemple, it doesn't send http request to get datas. 
 If it needs to manipulate data, it has to call the desired service.
 
-Our module are in the "tweb" name space, to prevent any problem about module name.
+To prevent any problem with module name, the modules use the 'tweb' name space.
 
-In our Express application, we did an API to define routes that Angular could use to speak with database. We need to do that because Angular is in the client-side and can't directly use "mongodb" which is a Node.js library.
+In the **server**, there's an API wich define routes that the **client** use to communicate 
+with the database. We need to do that because Angular is in the client-side and can't directly use "mongodb" which is a Node.js library.
 
 ## CREDITS
 
