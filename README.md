@@ -24,9 +24,9 @@ document.
 
 ## GETTING STARTED
 
-https://shenn299.github.io/HEIGVD-twebBootcampApp/
+The application is available online here: https://shenn299.github.io/HEIGVD-twebBootcampApp/
 
-Open you Terminal/Shell and type:
+To run the application locally, clone this repo, open you Terminal/Shell and type:
 
 ```bash
 $ grunt build
