@@ -24,6 +24,8 @@ document.
 
 ## GETTING STARTED
 
+https://shenn299.github.io/HEIGVD-twebBootcampApp/
+
 Open you Terminal/Shell and type:
 
 ```bash
